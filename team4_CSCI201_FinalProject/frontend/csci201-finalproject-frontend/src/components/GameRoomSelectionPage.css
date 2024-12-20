@@ -1,0 +1,74 @@
+/* Outer container for centering */
+.desktop-select-game-room {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+/* Main card container */
+.join-window {
+  width: 40rem; /* Fixed width for the card */
+  height: 24rem; /* Fixed height for the card */
+  background-color: #d9d9d9;
+  border-radius: 1.5rem; /* Rounded corners */
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Title styling */
+.join-create-a-game-room {
+  text-align: center;
+  color: black;
+  font-size: 2.5rem; /* Tailored font size */
+  font-family: "Irish Grover", cursive, bold;
+}
+
+/* Input container */
+.input-area {
+  width: 100%;
+  height: 4rem;
+  background-color: #ffa7a7;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Input field inside the container */
+.game-room-id {
+  width: 90%; /* Input width relative to the container */
+  height: 70%; /* Input height relative to the container */
+  background: transparent;
+  border: none;
+  outline: none;
+  text-align: center;
+  color: #6f6868;
+  font-size: 1.25rem;
+  font-family: "Irish Grover", cursive;
+}
+
+/* Join button styling */
+.join-button {
+  width: 7rem;
+  height: 3rem;
+  background-color: #e8b931;
+  border-radius: 0.5rem;
+  border: 1px solid #2c2c2c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+
+

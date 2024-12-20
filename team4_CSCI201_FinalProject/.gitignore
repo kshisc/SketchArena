@@ -1,0 +1,5 @@
+/build/
+# Add these to your .gitignore
+.DS_Store
+**/assets/index-*.js
+**/assets/index-*.css

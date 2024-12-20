@@ -1,0 +1,43 @@
+/* src/components/Button.css */
+
+.button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-family: 'Irish Grover', cursive;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #2C2C2C;
+    color: #F5F5F5;
+    transition: transform 0.1s ease, background-color 0.1s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    transform: scale(0.95);
+  }
+  
+  .button:focus {
+    outline: 2px solid #FFD700;
+    outline-offset: 2px;
+  }
+  
+  .sign-in {
+    background-color: #14AE5C;
+  }
+  
+  .sign-up {
+    background-color: #E8B931;
+  }
+  
+  .guest-in {
+    background-color: #E3E3E3;
+    color: #1E1E1E;
+    border: 1px solid #767676;
+  }
+  
+  
+  
